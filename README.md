@@ -1,2 +1,9 @@
 # EasyNotes
-It provides functionality to add, edit and delete a note. Developed using MERN Stack.
+EasyNotes helps you organize your notes efficiently.<br>
+<br>
+It provides functionality to:<br>
+-> Add a new note by clicking AddNote.
+-> Edit the existing note.
+-> Deleting a note.
+<br>
+Notes are being stored in the Database.
