@@ -27,7 +27,7 @@ export default function Login({showAlert, text}) {
     if(json.success){
       showAlert("Success : Registered Successfully", "success");
       localStorage.setItem('authToken' , json.authToken);
-      navigate("/EasyNotes");
+      navigate("/");
     }else{
       showAlert(`Error : Invalid Credentials `, "danger");
       // alert("Invalid Credentials");

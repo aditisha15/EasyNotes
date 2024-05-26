@@ -17,7 +17,7 @@ export default function Navbar({ toggleMode,mode, text}) {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link className={`nav-link ${a.pathname === '/EasyNotes' ? "active" : ""} text-${text}`} aria-current="page" to="/EasyNotes">Home</Link>
+                                <Link className={`nav-link ${a.pathname === '/' ? "active" : ""} text-${text}`} aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className={`nav-link ${a.pathname === '/about' ? "active" : ""} text-${text}`} to="/about">About</Link>
