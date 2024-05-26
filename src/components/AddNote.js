@@ -10,7 +10,7 @@ export default function AddNote({text, mode}) {
     const { addNote } = context;
     // const navigate = useNavigate();
 
-    const [data, setdata] = useState({ title: " ", description: "", tag: "" });
+    const [data, setdata] = useState({ title: " ", description: ""});
 
     const handleSubmit = (e) => {
         e.preventDefault();
