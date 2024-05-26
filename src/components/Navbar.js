@@ -13,7 +13,7 @@ export default function Navbar({ toggleMode,mode, text}) {
         <div>
             <nav className={`navbar navbar-expand-lg bg-${mode === 'light' ? 'warning' : mode}`} style={{boxShadow:"2px 2px 10px 2px grey"}}>
                 <div className="container-fluid">
-                    <h1 className={`navbar-brand text-${text}`}>EasyNotes</h1>
+                    <h1 className={`navbar-brand text-${text}`}>EasyNote</h1>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
