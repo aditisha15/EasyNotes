@@ -19,7 +19,7 @@ const NoteState = (props) => {
 
     // Get all notes
     const getAllNotes=async()=>{
-        const response = await fetch(`http://localhost:5000/api/notes/fetchallnotes`, {
+        const response = await fetch(`${window.location.origin}/api/notes/fetchallnotes`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
@@ -32,7 +32,7 @@ const NoteState = (props) => {
 
     // Add a note
     const addNote = async (title, description, tag) => {
-        const response = await fetch(`http://localhost:5000/api/notes/addnotes`, {
+        const response = await fetch(`${window.location.origin}/api/notes/addnotes`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -47,7 +47,7 @@ const NoteState = (props) => {
     // Delete a note
     const delNote = async(id) => {
         // console.log(id);
-        const response = await fetch(`http://localhost:5000/api/notes/deletenote/${id}`, {
+        const response = await fetch(`${window.location.origin}/api/notes/deletenote/${id}`, {
             method: "DELETE",
             headers: {
                 "Content-Type": "application/json",
@@ -62,7 +62,7 @@ const NoteState = (props) => {
     const editNote = async (id, title, description, tag) => {
         //  API call
         // console.log(id);
-        const response = await fetch(`http://localhost:5000/api/notes/updatenote/${id}`, {
+        const response = await fetch(`${window.location.origin}/api/notes/updatenote/${id}`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json",
