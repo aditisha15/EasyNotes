@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/EasyNotes/static/css/main.f855e6bc.css",
+    "main.js": "/EasyNotes/static/js/main.897f1fa1.js",
+    "index.html": "/EasyNotes/index.html",
+    "main.f855e6bc.css.map": "/EasyNotes/static/css/main.f855e6bc.css.map",
+    "main.897f1fa1.js.map": "/EasyNotes/static/js/main.897f1fa1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.897f1fa1.js"
+  ]
+}
