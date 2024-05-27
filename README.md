@@ -7,3 +7,5 @@ It provides functionality to:<br>
 -> Deleting a note.<br>
 <br>
 Notes are being stored in the Database.
+<br><br>
+Deployment Link: https://aditisha15.github.io/EasyNotes/
