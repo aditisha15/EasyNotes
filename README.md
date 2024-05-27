@@ -1,6 +1,5 @@
 # EasyNotes
 EasyNotes helps you organize your notes efficiently.<br>
-<br>
 <h1>How to use EasyNotes</h1>
 To get started with EasyNotes, first Signup.<br>
 Then, Login to your account.<br>
